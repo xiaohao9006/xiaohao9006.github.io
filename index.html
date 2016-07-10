@@ -1,0 +1,75 @@
+<!doctype html>
+<html ng-app="projectApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic" type="text/css" />
+    <link rel="stylesheet" href="styles/main-d9089900ae.css">
+    <link rel="stylesheet" href="styles/vendor-94b2219eaf.css">
+  </head>
+  <body ng-controller="AppController">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <!-- Header Menu -->
+    <div class="customVideoBG">
+      <video loop muted autoplay class="customJumbotronBGContent" data-autoplay>
+        <source src="video/headerBanner.mp4" type="video/mp4">
+        <img src="images/headerBanner.jpg" />
+      </video>
+    </div>
+
+    <ui-view onload="onViewLoad()" autoscroll="false"></ui-view>
+
+    <div ng-include="'views/footer.html'"></div>
+
+
+
+
+
+
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <script src="scripts/vendor-fb84793ef6.js"></script>
+
+        <script src="scripts/scripts-fea79c53ab.js"></script>
+
+    <script>
+      //Is this a version of Safari?
+      var ua = navigator.userAgent;
+      if (ua.lastIndexOf('Safari/') > 0) {
+        var version = ua.substr(ua.lastIndexOf('Safari/') + 7, 2);
+        //alert("Safari " + version);
+      }
+
+    </script>
+
+    <script>
+      /*$(document).ready(function(){
+        $('#headerTextContainer > i')
+          .transition('set looping')
+          .transition('bounce', '2000ms')
+      })*/
+
+
+    </script>
+  </body>
+</html>
