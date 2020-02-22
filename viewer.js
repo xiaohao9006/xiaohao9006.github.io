@@ -4234,7 +4234,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: 'Yunhao_Portfolio_Public.pdf',
+    value: 'Yunhao_Portfolio_Public_V2.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
