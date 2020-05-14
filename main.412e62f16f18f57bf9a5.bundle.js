@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{509:function(n,o,s){s(510),s(653),s(669),s(1482),s(1484),n.exports=s(1495)},572:function(n,o){},653:function(n,o,s){"use strict";s.r(o);var e=s(116);e.addons.setConfig({previewTabs:{canvas:null,"storybook/docs/panel":{title:"",hidden:!0}}})}},[[509,1,2]]]);
